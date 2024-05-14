@@ -4,7 +4,7 @@ namespace Crm\ApplicationModule\Presenters;
 
 class SnippetsPresenter extends FrontendPresenter
 {
-    public $autoCanonicalize = false;
+    public bool $autoCanonicalize = false;
 
     public function renderDefault($key = 'default')
     {
